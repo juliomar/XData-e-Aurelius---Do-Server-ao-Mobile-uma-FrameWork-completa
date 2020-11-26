@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 16.000000000000000000
+    TabOrder = 0
+    Text = 'Buscar'
+    OnClick = Button1Click
+  end
+  object ListBox1: TListBox
+    Position.X = 24.000000000000000000
+    Position.Y = 68.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 269.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 317.000000000000000000
+    Viewport.Height = 265.000000000000000000
+  end
+  object Button2: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 16.000000000000000000
+    TabOrder = 3
+    Text = 'Button2'
+  end
+  object Button3: TButton
+    Position.X = 208.000000000000000000
+    Position.Y = 16.000000000000000000
+    TabOrder = 4
+    Text = 'Button3'
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Position.X = 296.000000000000000000
+    Position.Y = 16.000000000000000000
+    TabOrder = 5
+    Text = 'Button4'
+  end
+  object Button5: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 364.000000000000000000
+    TabOrder = 7
+    Text = 'Button5'
+  end
+  object Label1: TLabel
+    Position.X = 136.000000000000000000
+    Position.Y = 376.000000000000000000
+    Text = 'Label1'
+    TabOrder = 8
+  end
+end

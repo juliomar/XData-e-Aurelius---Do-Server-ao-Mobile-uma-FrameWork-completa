@@ -1,0 +1,32 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited ListBox1: TListBox
+    Size.Width = 377.000000000000000000
+    Size.Height = 273.000000000000000000
+    Viewport.Width = 377.000000000000000000
+    Viewport.Height = 273.000000000000000000
+  end
+  inherited Button2: TButton
+    Position.X = 136.000000000000000000
+    Text = 'Criar'
+    OnClick = Button2Click
+  end
+  inherited Button3: TButton
+    Position.X = 220.000000000000000000
+    Text = 'Update'
+    OnClick = Button3Click
+  end
+  inherited Button4: TButton
+    Position.X = 324.000000000000000000
+    Position.Y = 12.000000000000000000
+    Text = 'Apagar'
+    OnClick = Button4Click
+  end
+  inherited Button5: TButton
+    Position.X = 28.000000000000000000
+    Text = 'Somar'
+    OnClick = Button5Click
+  end
+end
